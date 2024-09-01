@@ -3,6 +3,5 @@ pandas
 numpy
 pymongo
 certifi
-python -m pip install "pymongo[srv]"==3.6
-
+pymongo[srv]==3.6
 -e .
