@@ -12,7 +12,7 @@ from networksecurity.components.model_pusher import ModelPusher
 
 from networksecurity.entity.config_entity import (
 
-    TrainingpipelineConfig,
+    TrainingPipelineConfig,
     DataIngestionConfig,
     DataValidationConfig,
     DataTransformationConfig,
@@ -22,7 +22,7 @@ from networksecurity.entity.config_entity import (
 )
 
 from networksecurity.entity.artifact_entity import (
-    DataingestionArtifact,
+    DataIngestionArtifact,
     DataValidationArtifact,
     DataTransformationArtifact,
     ModelTrainerArtifact,
