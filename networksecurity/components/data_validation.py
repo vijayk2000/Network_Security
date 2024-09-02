@@ -9,14 +9,28 @@ import pandas as pd
 import os,sys
 
 class DataValidation:
-    def __init__(self):
-        pass
+    def __init__(self, data_ingestion_artifact:DataIngestionArtifact, 
+                 data_validation_config:DataValidationConfig):
+        try:
+            self.data_ingestion_artifact = data_ingestion_artifact
+            self.data_validation_config = data_validation_config
+            self._schema_config = read_yaml_file(SCHEMA_FILE_PATH)
+        except Exception as e:
+            raise NetworkSecurityException(e, sys)
+        
 
     def validate_no_of_column(self, dataframe:pd.DataFrame)->bool:
         try:
-            pass
+            number_of_columns = len(self_schema_config["columns"])
+            logging.info(f"Required no of columns:{number_of_columns}")
+            logging.info(f"Dataframe has columns: {len(dataframe.columns)}")
+
+            if len(dataframe.columns)!=number_of_columns:
+                return True
+            return False
         except Exception as e:
             raise NetworkSecurityException(e, sys)
+                
         
     def is_numerical_column_exist(self, dataframe:pd.DataFrame)->bool:
         try:
