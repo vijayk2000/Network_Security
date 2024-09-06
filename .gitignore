@@ -5,3 +5,4 @@ networksecurity.egg-info
 Artifacts
 .pycache
 logs/*.log
+pickle
