@@ -6,3 +6,6 @@ Artifacts
 .pycache
 logs/*.log
 pickle
+numpy
+pandas
+sys
