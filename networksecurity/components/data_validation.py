@@ -21,7 +21,7 @@ class DataValidation:
 
     def validate_no_of_column(self, dataframe:pd.DataFrame)->bool:
         try:
-            number_of_columns = len(self_schema_config["columns"])
+            number_of_columns = len(self.schema_config["columns"])
             logging.info(f"Required no of columns:{number_of_columns}")
             logging.info(f"Dataframe has columns: {len(dataframe.columns)}")
 
@@ -48,7 +48,7 @@ class DataValidation:
 
     def detect_dataset_drift(self, base_df, current_df,threshold=0.05)->bool:
         try:
-            pass
+            pass    
         except Exception as e:
             raise NetworkSecurityException(e, sys)
         
