@@ -1,6 +1,0 @@
-[ 2024-09-01 19:01:08,076 ] 40 root - INFO - Starting data ingestion
-[ 2024-09-01 19:01:09,811 ] 66 root - INFO - Performed train test split on the dataframe
-[ 2024-09-01 19:01:09,811 ] 68 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
-[ 2024-09-01 19:01:09,811 ] 76 root - INFO - Exporting train and test file path.
-[ 2024-09-01 19:01:09,888 ] 85 root - INFO - Exported train and test file path.
-[ 2024-09-01 19:01:09,888 ] 43 root - INFO - Data ingestion completed successfully. Data ingestion artifact: DataIngestionArtifact(trained_file_path='Artifacts/09_01_2024_19_01_07/data_ingestion/ingested/train.csv', test_file_path='Artifacts/09_01_2024_19_01_07/data_ingestion/ingested/test.csv')
