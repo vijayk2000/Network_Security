@@ -9,3 +9,4 @@ pickle
 numpy
 pandas
 sys
+dill

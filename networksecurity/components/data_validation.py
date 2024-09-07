@@ -34,7 +34,19 @@ class DataValidation:
         
     def is_numerical_column_exist(self, dataframe:pd.DataFrame)->bool:
         try:
-            pass
+            numerical_columns = self._schema_config["numerical_columns"]
+            dataframe_columns = dataframe.columns
+
+            numerical_column_present = True
+            missing_numerical_columns = []
+            for num_col in numerical_columns:
+                if num_col not in dataframe_columns:
+                    numerical_column_present = False
+                    missing_numerical_columns.append(num_col)
+                    
+            logging.info(f"Missing numerical columns: [{missing_numerical_columns}]")
+            return numerical_column_present 
+
         except Exception as e:
             raise NetworkSecurityException(e, sys)
     
