@@ -15,7 +15,7 @@ FILE_NAME: str = "NetworkData.csv"
 TRAIN_FILE_NAME: str = "train.csv"
 TEST_FILE_NAME: str = "test.csv"
 
-PREPROCESSING_OBJECT_NAME = "preprocessing.pkl"
+PREPROCESSING_OBJECT_FILE_NAME = "preprocessing.pkl"
 MODEL_FILE_NAME="model.pkl"
 SCHEMA_FILE_PATH = os.path.join("data_schema", "schema.yaml")
 SCHEMA_DROP_COLS="drop_columns"
@@ -49,7 +49,7 @@ DATA_TRANSFORMATION_TRANSFORMED_OBJECT_DIR: str = "transformed_object"
 DATA_TRANSFORMATION_IMPUTER_PARAMS: dict = {  #using KNN imputer to impute the missing values
     "missing_values": np.nan,
     "n_neighbors": 3,
-    "weights": "uniform"
+    "weights": "uniform",
 }
 
 DATA_TRANSFORMATION_TRAIN_FILE_PATH: str = "train.npy"  #numpy object to save a numpy array
