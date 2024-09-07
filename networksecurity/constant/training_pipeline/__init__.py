@@ -54,6 +54,24 @@ DATA_TRANSFORMATION_IMPUTER_PARAMS: dict = {  #using KNN imputer to impute the m
 
 DATA_TRANSFORMATION_TRAIN_FILE_PATH: str = "train.npy"  #numpy object to save a numpy array
 DATA_TRANSFORMATION_TEST_FILE_PATH: str = "test.npy"
+
 """
-model trainer related constant starts with MODEL_TRAINER VAR NAME
+Model Trainer ralated constant start with MODE TRAINER VAR NAME
 """
+
+MODEL_TRAINER_DIR_NAME: str = "model_trainer"
+MODEL_TRAINER_TRAINED_MODEL_DIR: str = "trained_model"
+MODEL_TRAINER_TRAINED_MODEL_NAME: str = "model.pkl"
+MODEL_TRAINER_EXPECTED_SCORE: float = 0.6
+MODEL_TRAINER_OVER_FIITING_UNDER_FITTING_THRESHOLD: float = 0.05
+
+
+"""
+model evaluation related constant starts with MODEL_TRAINER VAR NAME
+"""
+MODEL_EVALUATION_DIR_NAME: str = "model_evaluation"
+MODEL_EVALUATION_CHANGED_THRESHOLD_SCORE: float = 0.02
+MODEL_EVALUATION_REPORT_NAME = "report.yaml"
+
+MODEL_PUSHED_DIR_NAME = "model_pusher"
+MODEL_PUSHER_SAVED_DIR = SAVED_MODEL_DIR
