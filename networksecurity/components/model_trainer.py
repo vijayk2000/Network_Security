@@ -26,8 +26,21 @@ class ModelTrainer:
         except Exception as e:
             raise NetworkSecurityException(e,sys)
 
-    def perform_hyper_parameter_tuning(self):
-        pass
+    def perform_hyper_parameter_tuning(self, max_depth=6, eta=0.1,
+                                       early_stopping_rounds=10):  #incomplete class
+        try:
+            params ={
+                'max_depth':self.max_depth,
+                'eta': self.eta,
+                'early_stopping_rounds':self.early_stopping_rounds
+
+            }
+
+            
+            return params
+        except Exception as e:
+            raise e
+    
     
 
     def train_model(self,x_train,y_train):
