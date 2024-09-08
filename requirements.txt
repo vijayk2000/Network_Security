@@ -7,4 +7,11 @@ pymongo[srv]==3.6
 dill
 pyyaml
 xgboost=2.1.1
+fastapi
+uvicorn
+ipykernel
+apache-airflow
+mlflow
+dvc
+
 -e .
