@@ -10,5 +10,5 @@ numpy
 pandas
 sys
 dill
-Dockerfile
+
 __pycache__
