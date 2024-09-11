@@ -1,0 +1,15 @@
+artifact_uri: file:///home/vijay/Documents/Network_Security/mlruns/0/1995e39c46f04ce6939cfdf5b3552e1a/artifacts
+end_time: 1726022435060
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1995e39c46f04ce6939cfdf5b3552e1a
+run_name: clumsy-grub-507
+run_uuid: 1995e39c46f04ce6939cfdf5b3552e1a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726022431241
+status: 3
+tags: []
+user_id: vijay

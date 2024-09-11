@@ -1,0 +1,15 @@
+artifact_uri: file:///home/vijay/Documents/Network_Security/mlruns/0/c8dcdabb2dae4931bc8f4b956f7ad504/artifacts
+end_time: 1725846024791
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c8dcdabb2dae4931bc8f4b956f7ad504
+run_name: righteous-gnu-155
+run_uuid: c8dcdabb2dae4931bc8f4b956f7ad504
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725846021244
+status: 3
+tags: []
+user_id: vijay
