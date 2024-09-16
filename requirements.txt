@@ -6,7 +6,7 @@ certifi
 pymongo[srv]==3.6
 dill
 pyyaml
-xgboost=2.1.1
+xgboost==2.1.1
 fastapi
 uvicorn
 ipykernel
